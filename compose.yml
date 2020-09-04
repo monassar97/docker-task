@@ -1,0 +1,14 @@
+version: '2'
+services:
+    mysql:
+        build:
+            context: "./docker-mysql"
+        hostname: mysql
+        ports:
+            - "3306:3306"
+    webapp:
+        build:
+            context: "./tomcat/7.0"
+        hostname: tomcat7
+        links:
+            - mysql

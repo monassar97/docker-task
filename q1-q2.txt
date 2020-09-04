@@ -1,0 +1,5 @@
+Q-1 : Docker-compose is a tool for defining and running multi-container Docker applications and to assemble the images using the build command.
+Q-2 : - docker-compose makes it easy to startup multiple containers at the same time and automatically connect them together with some form of networking
+      - issue multiple commands much more quickly.
+      - makes it easier for working with multiple containers.
+      - all you need to encode the commands you were running before into a docker-compose.yml file.
